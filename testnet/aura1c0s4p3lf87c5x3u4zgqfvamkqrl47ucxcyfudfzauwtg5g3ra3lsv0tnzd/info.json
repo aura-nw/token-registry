@@ -1,0 +1,13 @@
+{
+  "name": "Serenity Coin",
+  "symbol": "AURA",
+  "decimals": 6,
+  "desc": "Aura Token for the Serenity Chain",
+  "website": "https://aura.network/",
+  "links": {
+    "twitter": "https://twitter.com/AuraNetworkHQ",
+    "telegram": "https://t.me/AuraNetworkOfficial",
+    "limkedIn": "https://www.linkedin.com/company/auranetwork/",
+    "github": "https://github.com/aura-nw"
+  }
+}
