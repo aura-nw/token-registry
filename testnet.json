@@ -1,5 +1,20 @@
 [
   {
+    "name": "EZPZ Token",
+    "symbol": "EZPZ",
+    "decimals": 6,
+    "desc": "EZPZ",
+    "website": "https://aura.network/",
+    "links": {
+      "twitter": "https://twitter.com/AuraNetworkHQ",
+      "telegram": "https://t.me/AuraNetworkOfficial",
+      "limkedIn": "https://www.linkedin.com/company/auranetwork/",
+      "github": "https://github.com/aura-nw"
+    },
+    "address": "aura10sxfmtls2x2sq0xz64cfw485tflzjmp9ts3hcvycvm7u073levpqk22wrc",
+    "icon": "0ba031a0bfa50c07341bbcf90d0c61e4232237d7.png"
+  },
+  {
     "name": "Serenity Coin",
     "symbol": "AURA",
     "decimals": 6,
