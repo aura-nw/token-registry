@@ -1,0 +1,36 @@
+{
+  "ibc": [
+    {
+      "name": "Aura Hub",
+      "decimals": 6,
+      "description": "Serenity Aura Token",
+      "tokenType": "ibc",
+      "network": "aura-testnet-2",
+      "address": "40CA5EF447F368B7F2276A689383BE3C427B15395D4BF6639B605D36C0846A20",
+      "icon": "dd6a57aa2190fe68ce9eacaed251c7d045fc938b.png",
+      "coinDenom": "Aura",
+      "minCoinDenom": "uaura",
+      "cosmosDenom": "ibc/40CA5EF447F368B7F2276A689383BE3C427B15395D4BF6639B605D36C0846A20",
+      "channel": "channel-2"
+    }
+  ],
+  "cw20": [
+    {
+      "name": "EZPZ Token",
+      "decimals": 6,
+      "description": "EZPZ",
+      "tokenType": "cw20",
+      "network": "aura-testnet-2",
+      "address": "aura10sxfmtls2x2sq0xz64cfw485tflzjmp9ts3hcvycvm7u073levpqk22wrc",
+      "icon": "dd6a57aa2190fe68ce9eacaed251c7d045fc938b.png",
+      "symbol": "EZPZ",
+      "website": "https://aura.network/",
+      "socialUrl": {
+        "twitter": "https://twitter.com/AuraNetworkHQ",
+        "telegram": "https://t.me/AuraNetworkOfficial",
+        "limkedIn": "https://www.linkedin.com/company/auranetwork/",
+        "github": "https://github.com/aura-nw"
+      }
+    }
+  ]
+}

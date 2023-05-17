@@ -1,0 +1,39 @@
+{
+  "ibc": [],
+  "cw20": [
+    {
+      "name": "Coin D8",
+      "decimals": 8,
+      "description": "Coin gives you the joint benefits of open blockchain technology and traditional currency by converting your cash into a stable digital currency equivalent.",
+      "tokenType": "cw20",
+      "network": "serenity-testnet-001",
+      "address": "aura182ugf36uukthmkdzl735t9ld6qfagchhrgdc3mmnnzsg3500wztqzawyde",
+      "icon": "dd6a57aa2190fe68ce9eacaed251c7d045fc938b.png",
+      "symbol": "DCOIN",
+      "website": "https://aura.network/",
+      "socialUrl": {
+        "twitter": "https://twitter.com/AuraNetworkHQ",
+        "telegram": "https://t.me/AuraNetworkOfficial",
+        "limkedIn": "https://www.linkedin.com/company/auranetwork/",
+        "github": "https://github.com/aura-nw"
+      }
+    },
+    {
+      "name": "Serenity Coin",
+      "decimals": 6,
+      "description": "Aura Token for the Serenity Chain",
+      "tokenType": "cw20",
+      "network": "serenity-testnet-001",
+      "address": "aura1c0s4p3lf87c5x3u4zgqfvamkqrl47ucxcyfudfzauwtg5g3ra3lsv0tnzd",
+      "icon": "dd6a57aa2190fe68ce9eacaed251c7d045fc938b.png",
+      "symbol": "AURA",
+      "website": "https://aura.network/",
+      "socialUrl": {
+        "twitter": "https://twitter.com/AuraNetworkHQ",
+        "telegram": "https://t.me/AuraNetworkOfficial",
+        "limkedIn": "https://www.linkedin.com/company/auranetwork/",
+        "github": "https://github.com/aura-nw"
+      }
+    }
+  ]
+}

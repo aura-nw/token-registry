@@ -1,0 +1,22 @@
+{
+  "ibc": [],
+  "cw20": [
+    {
+      "name": "Halo Token",
+      "decimals": 6,
+      "description": "Coin gives you the joint benefits of open blockchain technology and traditional currency by converting your cash into a stable digital currency equivalent.",
+      "tokenType": "cw20",
+      "network": "euphoria-2",
+      "address": "aura1cgdg583w7waz7jwya2uldk98j9huezykkyg4ac3kmyvf7kswdkxqjhmkdp",
+      "icon": "dd6a57aa2190fe68ce9eacaed251c7d045fc938b.png",
+      "symbol": "HALO",
+      "website": "https://aura.network/",
+      "socialUrl": {
+        "twitter": "https://twitter.com/AuraNetworkHQ",
+        "telegram": "https://t.me/AuraNetworkOfficial",
+        "limkedIn": "https://www.linkedin.com/company/auranetwork/",
+        "github": "https://github.com/aura-nw"
+      }
+    }
+  ]
+}
