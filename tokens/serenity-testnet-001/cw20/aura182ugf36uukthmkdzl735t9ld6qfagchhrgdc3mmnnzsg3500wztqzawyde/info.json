@@ -1,10 +1,10 @@
 {
-  "name": "EZPZ Token",
-  "symbol": "EZPZ",
-  "decimals": 6,
-  "desc": "EZPZ",
+  "name": "Coin D8",
+  "symbol": "DCOIN",
+  "decimals": 8,
+  "description": "Coin gives you the joint benefits of open blockchain technology and traditional currency by converting your cash into a stable digital currency equivalent.",
   "website": "https://aura.network/",
-  "links": {
+  "socialUrl": {
     "twitter": "https://twitter.com/AuraNetworkHQ",
     "telegram": "https://t.me/AuraNetworkOfficial",
     "limkedIn": "https://www.linkedin.com/company/auranetwork/",

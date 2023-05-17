@@ -1,47 +1,54 @@
-import { copyFile, mkdir, writeFile } from "fs/promises";
-import { TokenConfig } from "./modules/token-config";
+import { mkdir, writeFile } from "fs/promises";
+import { copyImageToDist, loadFromFolder } from "./modules/token-config";
 import path from "path";
 import config from "./config.json";
+import { IbcToken } from "./modules/IBC-token";
+import { plainToInstance } from "class-transformer";
+import { CW20Token } from "./modules/CW20-token";
 
-const build = async (env: string) => {
+const build = async (network: string) => {
   const outputPath = path.join(__dirname, config.outputDir);
   const configPath = path.join(__dirname, config.tokenDir);
   const logoPath = path.join(outputPath, config.iconDir);
 
-  // load tokens
-  const tokens = await TokenConfig.loadFromFolder(configPath, env);
+  const result = await Promise.all([
+    loadFromFolder(configPath, "ibc", network),
+    loadFromFolder(configPath, "cw20", network),
+  ]);
 
-  // Create dist folder
-  await mkdir(logoPath, {
-    recursive: true,
+  const ibcTokens = plainToInstance(IbcToken, result[0], {
+    excludeExtraneousValues: true,
+    exposeUnsetFields: false,
   });
 
+  const cw20Tokens = plainToInstance(CW20Token, result[1], {
+    excludeExtraneousValues: true,
+    exposeUnsetFields: false,
+  });
+  const tokens = {
+    ibc: ibcTokens,
+    cw20: cw20Tokens,
+  };
+
+  // Create dist folder
+  await Promise.all([
+    mkdir(logoPath, {
+      recursive: true,
+    }),
+  ]);
+
   // Copy image to logo folder
-  await Promise.all(
-    tokens.map((token) => {
-      // source path
-      const source = path.join(configPath, env, token.address, "token.png");
-
-      // dest path
-      const dest = path.join(logoPath, token.icon);
-
-      return copyFile(source, dest);
-    })
-  );
+  await copyImageToDist(configPath, logoPath, [...ibcTokens, ...cw20Tokens]);
 
   // Write file
   await writeFile(
-    path.join(outputPath, `${env}.json`),
+    path.join(outputPath, `${network}.json`),
     JSON.stringify(tokens, null, 2)
   );
-
-  // print
-  console.info(`List ${env.toUpperCase()} tokens: `);
-  console.table(tokens, ["name", "symbol", "decimals", "address", "icon"]);
 };
 
 const main = async () => {
-  await Promise.all([build("testnet"), build("mainnet")]);
+  await Promise.all(config.networks.map((network) => build(network)));
 };
 
 main();

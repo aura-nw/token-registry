@@ -1,5 +1,11 @@
 {
   "outputDir": "dist",
   "iconDir": "images",
-  "tokenDir": "tokens"
+  "tokenDir": "tokens",
+  "networks": [
+    "aura-testnet-2",
+    "euphoria-2",
+    "serenity-testnet-001",
+    "xstaxy-1"
+  ]
 }

@@ -1,0 +1,13 @@
+{
+  "name": "EZPZ Token",
+  "symbol": "EZPZ",
+  "decimals": 6,
+  "description": "EZPZ",
+  "website": "https://aura.network/",
+  "socialUrl": {
+    "twitter": "https://twitter.com/AuraNetworkHQ",
+    "telegram": "https://t.me/AuraNetworkOfficial",
+    "limkedIn": "https://www.linkedin.com/company/auranetwork/",
+    "github": "https://github.com/aura-nw"
+  }
+}
