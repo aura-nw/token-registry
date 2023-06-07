@@ -48,6 +48,23 @@
         "limkedIn": "https://www.linkedin.com/company/auranetwork/",
         "github": "https://github.com/aura-nw"
       }
+    },
+    {
+      "name": "EZPZ Token",
+      "decimals": 6,
+      "description": "EZPZ",
+      "tokenType": "cw20",
+      "network": "serenity-testnet-001",
+      "address": "aura1jhclnkf2nlktet6pk92zvp4009rpwjyy0xrd6uj59zezrcs062cqsjdqcl",
+      "icon": "dd6a57aa2190fe68ce9eacaed251c7d045fc938b.png",
+      "symbol": "EZPZ",
+      "website": "https://aura.network/",
+      "socialUrl": {
+        "twitter": "https://twitter.com/AuraNetworkHQ",
+        "telegram": "https://t.me/AuraNetworkOfficial",
+        "limkedIn": "https://www.linkedin.com/company/auranetwork/",
+        "github": "https://github.com/aura-nw"
+      }
     }
   ]
 }
