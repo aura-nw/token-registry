@@ -1,0 +1,9 @@
+{
+  "name": "Aura Hub",
+  "decimals": 6,
+  "description": "Devnet Aura Token",
+  "coinDenom": "tAura",
+  "minCoinDenom": "utaura",
+  "cosmosDenom": "ibc/2C4AFBABEC27A288296EEBD37D156B2F70E109697F7C5C0DC5DE33788B6282A8",
+  "channel": "channel-11"
+}
