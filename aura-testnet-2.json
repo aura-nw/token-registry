@@ -7,11 +7,11 @@
       "tokenType": "ibc",
       "network": "aura-testnet-2",
       "address": "40CA5EF447F368B7F2276A689383BE3C427B15395D4BF6639B605D36C0846A20",
-      "icon": "dd6a57aa2190fe68ce9eacaed251c7d045fc938b.png",
       "coinDenom": "Aura",
       "minCoinDenom": "uaura",
       "cosmosDenom": "ibc/40CA5EF447F368B7F2276A689383BE3C427B15395D4BF6639B605D36C0846A20",
-      "channel": "channel-2"
+      "channel": "channel-2",
+      "icon": "https://aura-nw.github.io/token-registry/images/dd6a57aa2190fe68ce9eacaed251c7d045fc938b.png"
     },
     {
       "name": "Aura Hub",
@@ -20,11 +20,11 @@
       "tokenType": "ibc",
       "network": "aura-testnet-2",
       "address": "64846F530A4FFAF387CFC4F3F369EA9C83FC158B7F09B4573DD9A3EE8EA49F06",
-      "icon": "dd6a57aa2190fe68ce9eacaed251c7d045fc938b.png",
       "coinDenom": "Aura",
       "minCoinDenom": "uaura",
       "cosmosDenom": "ibc/64846F530A4FFAF387CFC4F3F369EA9C83FC158B7F09B4573DD9A3EE8EA49F06",
-      "channel": "channel-45"
+      "channel": "channel-45",
+      "icon": "https://aura-nw.github.io/token-registry/images/dd6a57aa2190fe68ce9eacaed251c7d045fc938b.png"
     }
   ],
   "cw20": [
@@ -35,7 +35,7 @@
       "tokenType": "cw20",
       "network": "aura-testnet-2",
       "address": "aura10sxfmtls2x2sq0xz64cfw485tflzjmp9ts3hcvycvm7u073levpqk22wrc",
-      "icon": "dd6a57aa2190fe68ce9eacaed251c7d045fc938b.png",
+      "icon": "https://aura-explorer-assets.s3.ap-southeast-1.amazonaws.com/aura.png",
       "symbol": "EZPZ",
       "website": "https://aura.network/",
       "socialUrl": {

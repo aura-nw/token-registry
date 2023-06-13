@@ -7,11 +7,11 @@
       "tokenType": "ibc",
       "network": "serenity-testnet-001",
       "address": "2C4AFBABEC27A288296EEBD37D156B2F70E109697F7C5C0DC5DE33788B6282A8",
-      "icon": "dd6a57aa2190fe68ce9eacaed251c7d045fc938b.png",
       "coinDenom": "tAura",
       "minCoinDenom": "utaura",
       "cosmosDenom": "ibc/2C4AFBABEC27A288296EEBD37D156B2F70E109697F7C5C0DC5DE33788B6282A8",
-      "channel": "channel-11"
+      "channel": "channel-11",
+      "icon": "https://aura-nw.github.io/token-registry/images/dd6a57aa2190fe68ce9eacaed251c7d045fc938b.png"
     },
     {
       "name": "Aura Hub",
@@ -20,11 +20,11 @@
       "tokenType": "ibc",
       "network": "serenity-testnet-001",
       "address": "6DF434CD72825125ACECEA86BF4A15DCF7CA0DE257C7683AF2A550D2BE34F79D",
-      "icon": "dd6a57aa2190fe68ce9eacaed251c7d045fc938b.png",
       "coinDenom": "tAura",
       "minCoinDenom": "utaura",
       "cosmosDenom": "ibc/6DF434CD72825125ACECEA86BF4A15DCF7CA0DE257C7683AF2A550D2BE34F79D",
-      "channel": "channel-2"
+      "channel": "channel-2",
+      "icon": "https://aura-nw.github.io/token-registry/images/dd6a57aa2190fe68ce9eacaed251c7d045fc938b.png"
     }
   ],
   "cw20": [
@@ -35,7 +35,6 @@
       "tokenType": "cw20",
       "network": "serenity-testnet-001",
       "address": "aura182ugf36uukthmkdzl735t9ld6qfagchhrgdc3mmnnzsg3500wztqzawyde",
-      "icon": "dd6a57aa2190fe68ce9eacaed251c7d045fc938b.png",
       "symbol": "DCOIN",
       "website": "https://aura.network/",
       "socialUrl": {
@@ -43,7 +42,8 @@
         "telegram": "https://t.me/AuraNetworkOfficial",
         "limkedIn": "https://www.linkedin.com/company/auranetwork/",
         "github": "https://github.com/aura-nw"
-      }
+      },
+      "icon": "https://aura-nw.github.io/token-registry/images/dd6a57aa2190fe68ce9eacaed251c7d045fc938b.png"
     },
     {
       "name": "Serenity Coin",
@@ -52,7 +52,6 @@
       "tokenType": "cw20",
       "network": "serenity-testnet-001",
       "address": "aura1c0s4p3lf87c5x3u4zgqfvamkqrl47ucxcyfudfzauwtg5g3ra3lsv0tnzd",
-      "icon": "dd6a57aa2190fe68ce9eacaed251c7d045fc938b.png",
       "symbol": "AURA",
       "website": "https://aura.network/",
       "socialUrl": {
@@ -60,7 +59,8 @@
         "telegram": "https://t.me/AuraNetworkOfficial",
         "limkedIn": "https://www.linkedin.com/company/auranetwork/",
         "github": "https://github.com/aura-nw"
-      }
+      },
+      "icon": "https://aura-nw.github.io/token-registry/images/dd6a57aa2190fe68ce9eacaed251c7d045fc938b.png"
     },
     {
       "name": "EZPZ Token",
@@ -69,7 +69,6 @@
       "tokenType": "cw20",
       "network": "serenity-testnet-001",
       "address": "aura1jhclnkf2nlktet6pk92zvp4009rpwjyy0xrd6uj59zezrcs062cqsjdqcl",
-      "icon": "dd6a57aa2190fe68ce9eacaed251c7d045fc938b.png",
       "symbol": "EZPZ",
       "website": "https://aura.network/",
       "socialUrl": {
@@ -77,7 +76,8 @@
         "telegram": "https://t.me/AuraNetworkOfficial",
         "limkedIn": "https://www.linkedin.com/company/auranetwork/",
         "github": "https://github.com/aura-nw"
-      }
+      },
+      "icon": "https://aura-nw.github.io/token-registry/images/dd6a57aa2190fe68ce9eacaed251c7d045fc938b.png"
     }
   ]
 }
