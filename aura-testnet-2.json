@@ -34,7 +34,7 @@
       "description": "EZPZ",
       "tokenType": "cw20",
       "network": "aura-testnet-2",
-      "address": "aura10sxfmtls2x2sq0xz64cfw485tflzjmp9ts3hcvycvm7u073levpqk22wrc",
+      "address": "aura10sxfmtls2x2sq0xz64cfw485tflzjmp9ts3hcvycvm7u073levpqk22wrd",
       "icon": "https://aura-explorer-assets.s3.ap-southeast-1.amazonaws.com/aura.png",
       "symbol": "EZPZ",
       "website": "https://aura.network/",
