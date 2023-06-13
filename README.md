@@ -33,7 +33,7 @@
         "coinDenom": "aura",
         "minCoinDenom": "uaura",
         "cosmosDenom": "ibc/40CA5EF447F368B7F2276A689383BE3C427B15395D4BF6639B605D36C0846A20",
-        "channel": "channel-2"
+        "channel": "channel-2",
 
         // Optinal
         // You can place the `png` file inside the token config folder instead of filling URL in this
