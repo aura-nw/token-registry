@@ -2,6 +2,7 @@
   "outputDir": "dist",
   "iconDir": "images",
   "tokenDir": "tokens",
+  "github": "https://aura-nw.github.io/token-registry",
   "networks": [
     "aura-testnet-2",
     "euphoria-2",

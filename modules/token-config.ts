@@ -3,6 +3,7 @@ import path from "path";
 import * as hasha from "hasha";
 import { existsSync } from "fs";
 import { IToken } from "./interfaces/itoken";
+import config from "../config.json";
 
 export class TokenConfig<T> {
   constructor(public token: T) {}
@@ -35,18 +36,9 @@ export async function loadFromFolder(
   for (const id in directories) {
     const address = directories[id];
 
-    // calculate icon file name
-    const icon = `${hasha.fromFileSync(
-      path.join(envConfigPath, directories[id], "token.png"),
-      {
-        algorithm: "sha1",
-      }
-    )}.png`;
-
     tokens.push({
       ...JSON.parse(filesData[id].toString()),
       address,
-      icon,
       tokenType,
       network,
     });
@@ -61,7 +53,22 @@ export async function copyImageToDist(
   tokens: IToken[]
 ): Promise<void> {
   await Promise.all(
-    tokens.map((token) => {
+    tokens.map(async (token, index) => {
+      if (token.icon) return Promise.resolve();
+
+      // calculate icon file name
+      const envConfigPath = path.join(
+        configPath,
+        token.network,
+        token.tokenType
+      );
+      const iconname = `${hasha.fromFileSync(
+        path.join(envConfigPath, token.address, "token.png"),
+        {
+          algorithm: "sha1",
+        }
+      )}.png`;
+
       // source path
       const source = path.join(
         configPath,
@@ -72,9 +79,11 @@ export async function copyImageToDist(
       );
 
       // dest path
-      const dest = path.join(logoPath, token.icon);
+      const dest = path.join(logoPath, iconname);
 
-      return copyFile(source, dest);
+      await copyFile(source, dest);
+
+      token.icon = `${config.github}/images/${iconname}`;
     })
   );
 }

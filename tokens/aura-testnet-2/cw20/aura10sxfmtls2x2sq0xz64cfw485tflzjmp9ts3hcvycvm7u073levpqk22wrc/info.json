@@ -9,5 +9,6 @@
     "telegram": "https://t.me/AuraNetworkOfficial",
     "limkedIn": "https://www.linkedin.com/company/auranetwork/",
     "github": "https://github.com/aura-nw"
-  }
+  },
+  "icon": "https://aura-explorer-assets.s3.ap-southeast-1.amazonaws.com/aura.png"
 }
