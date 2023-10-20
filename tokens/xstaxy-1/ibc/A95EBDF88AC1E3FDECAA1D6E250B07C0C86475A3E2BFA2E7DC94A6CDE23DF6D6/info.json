@@ -1,0 +1,10 @@
+{
+  "name": "Tether USDt",
+  "decimals": 6,
+  "description": "Tether USDt",
+  "coinDenom": "USDT",
+  "minCoinDenom": "",
+  "cosmosDenom": "ibc/A95EBDF88AC1E3FDECAA1D6E250B07C0C86475A3E2BFA2E7DC94A6CDE23DF6D6",
+  "channel": "channel-2",
+  "icon": "https://assets.coingecko.com/coins/images/325/large/Tether.png"
+}
