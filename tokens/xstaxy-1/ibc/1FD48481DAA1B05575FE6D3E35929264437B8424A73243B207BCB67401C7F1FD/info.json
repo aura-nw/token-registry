@@ -1,0 +1,10 @@
+{
+  "name": "Nois",
+  "decimals": 6,
+  "description": "Nois",
+  "coinDenom": "NOIS",
+  "minCoinDenom": "",
+  "cosmosDenom": "ibc/1FD48481DAA1B05575FE6D3E35929264437B8424A73243B207BCB67401C7F1FD",
+  "channel": "channel-2",
+  "icon": "https://aura-explorer-assets.s3.ap-southeast-1.amazonaws.com/dev-assets/token/White.svg"
+}
