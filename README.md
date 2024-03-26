@@ -61,9 +61,9 @@
 
   `https://aura-nw.github.io/token-registry/serenity-testnet-001.json`
 
-- [Testnet - Devnet](https://aura-nw.github.io/token-registry/aura-testnet-2.json)
+- [Testnet - Devnet](https://aura-nw.github.io/token-registry/auradev_1235-3.json)
 
-  `https://aura-nw.github.io/token-registry/aura-testnet-2.json`
+  `https://aura-nw.github.io/token-registry/auradev_1235-3.json`
 
 ### 2. Get the token icon
 
