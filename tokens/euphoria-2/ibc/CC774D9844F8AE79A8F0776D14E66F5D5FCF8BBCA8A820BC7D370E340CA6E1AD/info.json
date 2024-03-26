@@ -1,0 +1,9 @@
+{
+  "name": "Aura Hub",
+  "decimals": 6,
+  "description": "Serenity Aura Token",
+  "coinDenom": "Aura",
+  "minCoinDenom": "uaura",
+  "cosmosDenom": "ibc/CC774D9844F8AE79A8F0776D14E66F5D5FCF8BBCA8A820BC7D370E340CA6E1AD",
+  "channel": "channel-2"
+}
