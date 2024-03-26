@@ -1,5 +1,19 @@
 {
-  "ibc": [],
+  "ibc": [
+    {
+      "name": "Aura Hub",
+      "decimals": 6,
+      "description": "Serenity Aura Token",
+      "tokenType": "ibc",
+      "network": "euphoria-2",
+      "address": "CC774D9844F8AE79A8F0776D14E66F5D5FCF8BBCA8A820BC7D370E340CA6E1AD",
+      "coinDenom": "Aura",
+      "minCoinDenom": "uaura",
+      "cosmosDenom": "ibc/CC774D9844F8AE79A8F0776D14E66F5D5FCF8BBCA8A820BC7D370E340CA6E1AD",
+      "channel": "channel-2",
+      "icon": "https://aura-nw.github.io/token-registry/images/dd6a57aa2190fe68ce9eacaed251c7d045fc938b.png"
+    }
+  ],
   "cw20": [
     {
       "name": "Halo Token",
