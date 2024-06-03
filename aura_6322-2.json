@@ -1,0 +1,31 @@
+{
+  "ibc": [
+    {
+      "name": "Nois",
+      "decimals": 6,
+      "description": "Nois",
+      "tokenType": "ibc",
+      "network": "aura_6322-2",
+      "address": "1FD48481DAA1B05575FE6D3E35929264437B8424A73243B207BCB67401C7F1FD",
+      "icon": "https://aura-explorer-assets.s3.ap-southeast-1.amazonaws.com/dev-assets/token/White.svg",
+      "coinDenom": "NOIS",
+      "minCoinDenom": "",
+      "cosmosDenom": "ibc/1FD48481DAA1B05575FE6D3E35929264437B8424A73243B207BCB67401C7F1FD",
+      "channel": "channel-2"
+    },
+    {
+      "name": "Tether USDt",
+      "decimals": 6,
+      "description": "Tether USDt",
+      "tokenType": "ibc",
+      "network": "aura_6322-2",
+      "address": "A95EBDF88AC1E3FDECAA1D6E250B07C0C86475A3E2BFA2E7DC94A6CDE23DF6D6",
+      "icon": "https://assets.coingecko.com/coins/images/325/large/Tether.png",
+      "coinDenom": "USDT",
+      "minCoinDenom": "",
+      "cosmosDenom": "ibc/A95EBDF88AC1E3FDECAA1D6E250B07C0C86475A3E2BFA2E7DC94A6CDE23DF6D6",
+      "channel": "channel-2"
+    }
+  ],
+  "cw20": []
+}
